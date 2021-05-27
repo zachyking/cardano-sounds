@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>cardanosounds.com</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+      html, body {
+        height: 100%;
+
+      }
+
+      body {
+        /*background-color: #fff;
+        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);*/
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       	background: linear-gradient(271deg, #2a71d0, #222222);
+	    background-size: 400% 400%;
+	
+	    -webkit-animation: LinearGradientAnimate 30s ease infinite;
+	    -moz-animation: LinearGradientAnimate 30s ease infinite;
+	    animation: LinearGradientAnimate 30s ease infinite;
+      }
+      main {
+        /*padding: 1rem;*/
+        text-align: center;
+
+      }
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin: 0;
+      }
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+     a {
+     	color: inherit;
+     	text-decoration: none;
+     }
+     .overlay {
+     	height: 100%;
+ 	 	width: 100%;
+     	background-color: rgba(0, 0, 0, 0.6);
+	    
+	  }
+	  .icon:hover {
+	  	text-shadow: 0 0 10px black;
+	  }
+	  @-webkit-keyframes LinearGradientAnimate {
+	      0%{background-position:0% 50%}
+	      50%{background-position:100% 50%}
+	      100%{background-position:0% 50%}
+	  }
+	  @-moz-keyframes LinearGradientAnimate {
+	      0%{background-position:0% 50%}
+	      50%{background-position:100% 50%}
+	      100%{background-position:0% 50%}
+	  }
+	  @keyframes LinearGradientAnimate {
+	      0%{background-position:0% 50%}
+	      50%{background-position:100% 50%}
+	      100%{background-position:0% 50%}
+	  }
+      h1::after {
+        content: "";
+        /*background-color: #ffe800;*/
+        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
+        display: block;
+        height: 0.5rem;
+        margin-top: 1rem;
+      }
+      p {
+        margin: 1rem 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    <div class="overlay">
+	</div>  
+
+      <h1>Cardano Sounds</h1>
+      <p>We are almost ready!</p>
+      <div id="player">
+    	<audio autoplay hidden>
+     		<source src="/teaser.flac" type="audio/flac">
+                If you're reading this, audio isn't supported. 
+    	</audio>
+	  </div>
+     
+      <span style="font-size: 3em; color: white;">
+      	<a href="google.com">
+  			<i class="fab fa-twitter icon"></i>
+  		</a>
+	  </span>
+	  
+	  <span style="font-size: 48px; color: white;">
+      	<a href="google.com">
+	    	<i class="fab fa-github icon"></i>
+  		</a>
+	  </span>
+    </main>
+  </body>
+</html>
